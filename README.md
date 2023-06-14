@@ -30,8 +30,7 @@ Your project needs to be configured with the following:
 
 
 ## Run the project
-to
-First, clone the repo.
+To run the project, first, clone the repo.
 
 ```sh
 npm install
