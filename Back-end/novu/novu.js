@@ -34,14 +34,4 @@ export const inAppNotification = async (description) => {
             description: description
         }
     });
-
-
-    // await novu.trigger("in-app", {
-    //     to: {
-    //         subscriberId: "789",
-    //     },
-    //     payload: {
-    //         description: description
-    //     },
-    // });
 };

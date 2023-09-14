@@ -1,0 +1,5 @@
+.bell{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+}
