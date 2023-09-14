@@ -13,6 +13,8 @@ This sample app demonstrates how to integrate Novu's Notification Center in a Re
 
 It demonstrates how to trigger notifications from any backend and view them in real-time within the app.
 
+You can refer to [this](https://docs.novu.co/quickstarts/react#install-novu-react-notification-center-package-in-your-react-app) guide to know more about it.
+
 ## Configuration
 
 ### Create a free account in Novu
@@ -28,15 +30,41 @@ Your project needs to be configured with the following:
 2. API key from [your Novu dashboard](https://web.novu.co/settings).
 3. SubscriberId to send notifications to.
 
-
 ## Run the project
+
 To run the project, first, clone the repo.
+
+```sh
+cd Front-end
+```
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+Create a `.env` file and the following variables - `REACT_APP_SUB_ID` and `REACT_APP_APP_ID` to it.
+
+In the `header.js` file, these have been logged at line #17. You can confirm these using that console.log().
+
+Start the front-end using:
+
+```sh
+npm start
+```
+
+Now, we'll set up the backend:
+
+```sh
+cd ../Back-end
+```
+
+```sh
+npm install
+```
+
+Create a `.env` file and the variable - `NOVU_API_KEY` to it. It has been logged in `novu.js` at line 6. Use it to confirm your key value.
+
+Fire up the backend server using:
 
 ```sh
 npm start
@@ -57,7 +85,3 @@ With Novu, you can create custom workflows and define conditions for each channe
 - 🛡 Debug and analyze multi-channel messages in a single dashboard
 - 📦 Embeddable notification center with real-time updates
 - 👨‍💻 Community driven
-
-## License
-
-This project is licensed under the MIT license.
