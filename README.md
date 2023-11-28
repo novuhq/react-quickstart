@@ -42,7 +42,7 @@ cd Front-end
 npm install
 ```
 
-Create a `.env` file and the following variables - `REACT_APP_SUB_ID` and `REACT_APP_APP_ID` to it.
+Create a `.env` file and the following variables - `REACT_APP_SUB_ID` and `REACT_APP_APP_ID` to it. `REACT_APP_SUB_ID` is the identifier for the 'SubscriberID' and it is used to identify the [subscriber](https://docs.novu.co/subscribers/subscribers) you're sending notifications to. You can obtain the 'SubscriberID' from the [Novu dsashboard](https://web.novu.co/subscribers). `REACT_APP_APP_ID`, on the other hand, is the identifier for the application. You can get your own application identifier from the [Novu dashboard settings](https://web.novu.co/settings).
 
 In the `header.js` file, these have been logged at line #17. You can confirm these using that console.log().
 
@@ -62,7 +62,7 @@ cd ../Back-end
 npm install
 ```
 
-Create a `.env` file and the variable - `NOVU_API_KEY` to it. It has been logged in `novu.js` at line 6. Use it to confirm your key value.
+Create a `.env` file and the variable - `NOVU_API_KEY` to it. It has been logged in `novu.js` at line 6. Use it to confirm your key value. You can get your API key from the [Novu dashboard](https://web.novu.co/settings).
 
 Fire up the backend server using:
 
