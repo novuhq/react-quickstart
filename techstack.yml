@@ -1,7 +1,8 @@
 repo_name: novuhq/react-quickstart
-report_id: eb02ae5133af92ff1fef0cd394a2f374
+report_id: 79dc02488043d9f94fb1d871a019be14
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T09:32:59+00:00'
+timestamp: '2024-01-04T14:58:20+00:00'
 requested_by: sumitsaurabh927
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/novuhq/react-quickstart
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/novuhq/react-quickstart
   detection_source: Repo Metadata
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -63,6 +66,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/novuhq/react-quickstart/blob/main/Front-end/public/robots.txt
   detection_source: Front-end/public/robots.txt
   last_updated_by: Sumit Saurabh
   last_updated_on: 2023-06-14 20:40:37.000000000 Z
@@ -75,6 +79,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/novuhq/react-quickstart/blob/main/Back-end/package.json
   detection_source: Back-end/package.json
   last_updated_by: Sumit Saurabh
   last_updated_on: 2023-06-14 20:40:37.000000000 Z
@@ -86,6 +91,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/novuhq/react-quickstart
   detection_source: Repo Metadata
 - name: nodemon
   description: A simple monitor script for use during development of a node.js app
@@ -109,6 +115,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/novuhq/react-quickstart/blob/main/Front-end/package.json
   detection_source: Front-end/package.json
   last_updated_by: Sumit Saurabh
   last_updated_on: 2023-06-14 20:40:37.000000000 Z
@@ -118,6 +125,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/novuhq/react-quickstart/blob/main/Front-end/public/index.html
   detection_source: Front-end/public/index.html
   last_updated_by: Sumit Saurabh
   last_updated_on: 2023-06-14 20:40:37.000000000 Z
@@ -129,6 +137,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/novuhq/react-quickstart/blob/main/Front-end/public/robots.txt
   detection_source: Front-end/public/robots.txt
   last_updated_by: Sumit Saurabh
   last_updated_on: 2023-06-14 20:40:37.000000000 Z
