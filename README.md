@@ -47,7 +47,7 @@ Create a `.env` file and the following variables - `REACT_APP_SUB_ID` and `REACT
 
 `REACT_APP_SUB_ID` is the identifier for the 'SubscriberID' and it is used to identify the [subscriber](https://docs.novu.co/subscribers/subscribers) you're sending notifications to. 
 
-You can obtain the 'SubscriberID' from the [Novu dsashboard](https://web.novu.co/subscribers). `REACT_APP_APP_ID`, on the other hand, is the identifier for the application.
+You can obtain the 'SubscriberID' from the [Novu dashboard](https://web.novu.co/subscribers). `REACT_APP_APP_ID`, on the other hand, is the identifier for the application.
 
 <br/>
 
